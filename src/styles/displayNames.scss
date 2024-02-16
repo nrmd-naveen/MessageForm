@@ -1,0 +1,31 @@
+@import "all";
+
+.user{
+  background-color: rgba(227, 146, 227, 0.475);
+  @include flex(row);
+  margin: 2px 20px;
+  span{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color:#000;
+    color:#fff;
+  }
+  p{
+    margin: 0 10px;
+  }
+  div{
+    position: fixed;
+    right: 50px;
+
+    button{
+      width: 70px;
+      height: 30px;
+    }
+  }
+}
+
+

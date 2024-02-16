@@ -1,0 +1,60 @@
+@import "all";
+
+* {
+    margin-top: 0;
+    padding: 0;
+    @include poppins(600);
+        .mainCont{
+            background-color: rgb(186, 154, 112);
+
+            header{
+                background-color: rgba(148, 84, 0, 0.562);
+
+                .topBar{
+                    background-color: rgba(0, 0, 0, 0.562);
+                    @include flex(row);
+                    justify-content: space-between;
+
+                }
+                .namesBar{
+                    background-color: aquamarine;
+
+                }
+                .toggleBar{
+
+
+
+                }
+            }
+
+            .pages{
+
+
+
+            }
+        }
+    }
+
+
+body{
+    background-color: $prim;
+}
+
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 7px 15px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    height: 15px;
+    width: 15px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}       
